@@ -1,0 +1,27 @@
+{
+  "name": "klaytn_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/green9016/klaytn_assessment.git"
+  },
+  "keywords": [
+    "assessment"
+  ],
+  "author": "green9016",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/green9016/klaytn_assessment/issues"
+  },
+  "homepage": "https://github.com/green9016/klaytn_assessment#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
